@@ -1,0 +1,89 @@
+body
+{
+color: #464646;
+font-weight: bold;
+font-size: 16px;
+}
+
+.loginholder
+{
+padding: 20px 5px 25px 5px;
+background-color: #fff;
+border-radius: 0.9rem;
+border: 2px solid;
+display: inline-block;
+}
+
+.inputbox
+{
+border: 1px solid #464646;
+padding: 5px;
+width: 300px;
+color: #464646;
+background-color: #fff;
+border-radius: 5px;
+transition: all 0.5s;
+font-weight: normal;
+}
+
+.inputbox:focus
+{
+border: 1px solid #f9bc50;
+padding: 5px;
+background-color: #000;
+color: #f9bc50;
+
+}
+
+h2
+{
+padding: 0px;
+margin: 0px;
+}
+
+.btn-normal
+{
+width: 145px;
+padding: 5px 35px;
+color: #000;
+transition: all 0.5s;
+border-radius: 5px;
+border: 3px solid #000;
+background-color: #f9bc50;
+font-weight: bold;
+cursor: pointer;
+}
+
+.btn-normal:hover, .btn-normal:focus
+{
+color: #f9bc50;
+border: 2px solid #f9bc50;
+background-color: #000;
+text-decoration: none;
+}
+
+.forgetpassword
+{
+font-weight: bold;
+color: #000;
+}
+
+.forgetpassword:hover, .forgetpassword:focus
+{
+color: black;
+}
+
+.btn-normal-logo
+{
+background-color: white;
+border: 1px solid #464646;
+color: #464646;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.btn-normal-logo:focus, .btn-normal-logo:hover
+{
+border: 1px solid #000;
+color: #000;
+}
